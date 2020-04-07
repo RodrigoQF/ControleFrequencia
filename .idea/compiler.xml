@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ControleFrequencia" />
         <module name="Exemplo de DAO em Java" />
         <module name="DAO_Java_Exemplo" />
       </profile>

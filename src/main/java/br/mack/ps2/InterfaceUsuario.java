@@ -22,9 +22,7 @@ public class InterfaceUsuario {
     private void imprimirMenu() {
         int opc = 0;
         do {
-            System.out.println("\n==============");
-            System.out.println("==== Menu ====");
-            System.out.println("==============");
+            System.out.println("= Menu =");
             System.out.println("\t1. Create");
             System.out.println("\t2. Read");
             System.out.println("\t3. sair");
@@ -54,9 +52,7 @@ public class InterfaceUsuario {
     private void create() {
         Controle controle = new Controle();
 
-        System.out.println("\n******************");
         System.out.println("*** Novo aluno ***");
-        System.out.println("******************");
         System.out.print("\nInforme o TIA do aluno: ");
         controle.setTia(in.nextInt());
 
