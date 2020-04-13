@@ -23,9 +23,9 @@ public class InterfaceUsuario {
         int opc = 0;
         do {
             System.out.println("= Menu =");
-            System.out.println("\t1. Create");
-            System.out.println("\t2. Read");
-            System.out.println("\t3. sair");
+            System.out.println("\t1. Inserir");
+            System.out.println("\t2. Ler");
+            System.out.println("\t3. Sair");
             System.out.print("Escolha uma opção: ");
             opc = in.nextInt();
 
